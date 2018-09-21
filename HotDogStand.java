@@ -33,9 +33,9 @@ public class HotDogStand
 		HotDogStand stand2 = new HotDogStand(2, 0);
 		HotDogStand stand3 = new HotDogStand(3, 0);
 		
-    stand1.justSold;
-    stand1.justSold;
-    stand2.justSold;
+    		stand1.justSold;
+  		stand1.justSold;
+    		stand2.justSold;
     
 		System.out.printf("Stand %d sold %d%n", stand1.getID(), stand1.numberSold());
 		System.out.printf("Stand %d sold %d%n", stand2.getID(), stand2.numberSold());
@@ -43,10 +43,10 @@ public class HotDogStand
 		System.out.printf("Total sold = %d%n", HotDogStand.getALLSOLD());
 		
 		stand2.justSold;
-    stand2.justSold;
-    stand3.justSold;
+    		stand2.justSold;
+    		stand3.justSold;
     
-    System.out.printf("Stand %d sold %d%n", stand1.getID(), stand1.numberSold());
+    		System.out.printf("Stand %d sold %d%n", stand1.getID(), stand1.numberSold());
 		System.out.printf("Stand %d sold %d%n", stand2.getID(), stand2.numberSold());
 		System.out.printf("Stand %d sold %d%n", stand3.getID(), stand3.numberSold());
 		System.out.printf("Total sold = %d%n", HotDogStand.getALLSOLD());
